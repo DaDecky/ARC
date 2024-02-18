@@ -1,0 +1,13 @@
+1. Merge conflict adalah fenomena yang terjadi ketika menjalankan command `git merge`. Hal ini terjadi karena 2 branch yang ingin di-merge diedit pada bagian yang sama sehingga conflictpun terjadi.
+Cara menanggulanginya:
+    1. Ketika terjadi merge conflict, git akan memberi tahu file mana yang terjadi konflik maka kita akan membuka file tersebut dengan text editor
+    2. Bagian konflik akan terlihat kurang lebih seperti berikut
+        1 <<<<<<< HEAD
+        2 #bagian 1
+        3 =======
+        4 #bagian 2
+        5 >>>>>>> branch-a
+    
+    Dalam konteks ini, kita melakukan merge pada branch-a. kita dapat memilih untuk mempertahankan yang ada pada HEAD atau memilih yang ada pada branch-a ataupun menggabungkan keduanya dengan menghapus yang tidak diinginkan. Jika kita ingin mempertahankan yang ada pada head, maka kita harus menghapus line 1,3,4,5. Sehinga akan terlihat menjadi seperti ini
+        1 #bagian 1
+    3. add file yang terkena konflik dan yang sudah kita benahi dan commit

@@ -1,0 +1,3 @@
+3. Pada github terdapat konsep bernama fork dan pull request. Pada dasarnya fork akan membuat salinan dari suatu repository, sehingga kita memiliki salinan dari repository tersebut yang dapat kita edit tanpa mempengaruhi repository aslinya.
+
+Sedangkan pull request adalah suatu permintaan untuk melakukan merge dari forked repository dengan repository aslinya.

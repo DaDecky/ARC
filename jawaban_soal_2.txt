@@ -1,0 +1,3 @@
+2. Git rebase adalah suatu command dari git yang berfungsi untuk memindahkan seluruh commit pada suatu branch ke branch lainnya.
+
+Git rebase memiliki kemiripan dengan git merge yaitu mereka menggabungkan dua branch menjadi satu. Perbedannya adalah git merge menyatukan semua commit pada suatu branch kemudian membuat commit baru pada branch tujuan sehingga dari yang awalnya terdapat banyak commit hanya menjadi satu commit saja. Sedangkan git rebase tetap mempertahankan commit-commit yang ada pada suatu branch kemudian menyambungkan seluruh commit tersebut pada branch tujuan.
